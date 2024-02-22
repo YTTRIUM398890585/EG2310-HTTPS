@@ -61,6 +61,7 @@ void handleRequest() {
 
 void setup() {
   Serial.begin(115200);
+  delay(2000); // delay for serial to connect, dw while not serial as that leads to retardation
 
   // Initialize the output variables as outputs
   pinMode(output16, OUTPUT);
