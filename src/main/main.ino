@@ -3,8 +3,8 @@
 #include "ArduinoJson.h"
 
 // Replace with your network credentials
-const char* ssid = "";
-const char* password = "";
+const char* ssid = "Yttrium";
+const char* password = "Alohomora1";
 
 // Create a web server on port 80
 WebServer server(80);
